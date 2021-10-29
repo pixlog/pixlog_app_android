@@ -1,0 +1,12 @@
+{
+	"resource": "/home/natalia/Documentos/Pixlog",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": "0",
+	"severity": 8,
+	"message": "Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.1.1-all.zip'.\nCould not open cp_init remapped class cache for 6a5krabdzij62jglcll542e66 (/home/natalia/.gradle/caches/6.1.1/scripts-remapped/eclipsePlugin_4dwwd4br8ek7q27pzx0ju9do3/6a5krabdzij62jglcll542e66/cp_init3607aee355f62839c5e6f549478ccc87).\nCould not open cp_init generic class cache for initialization script '/home/natalia/.config/Code/User/workspaceStorage/8809c6ebea3db53f2a5b8fa726b40c0e/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.buildship.core/init.d/eclipsePlugin.gradle' (/home/natalia/.gradle/caches/6.1.1/scripts/6a5krabdzij62jglcll542e66/cp_init/cp_init3607aee355f62839c5e6f549478ccc87).\nCould not initialize class org.codehaus.groovy.classgen.Verifier",
+	"source": "Java",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1
+}

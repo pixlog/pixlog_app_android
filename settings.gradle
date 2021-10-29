@@ -1,0 +1,5 @@
+rootProject.name='Pixlog'
+include ':app'
+include ':debenu'
+
+include ':openCVLibrary3415'

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <ImageView
+        android:id="@+id/ud_companyOrPerson"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline105"
+        app:layout_constraintEnd_toStartOf="@+id/guideline101"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_company" />
+
+    <ImageView
+        android:id="@+id/ud_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline106"
+        app:layout_constraintEnd_toStartOf="@+id/guideline101"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline105"
+        app:srcCompat="@drawable/ic_nickname" />
+
+    <ImageView
+        android:id="@+id/ud_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline107"
+        app:layout_constraintEnd_toStartOf="@+id/guideline101"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline106"
+        app:srcCompat="@drawable/ic_password" />
+
+    <ImageView
+        android:id="@+id/ud_vformula"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline109"
+        app:layout_constraintEnd_toEndOf="@+id/ud_email"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/ud_email"
+        app:layout_constraintTop_toTopOf="@+id/guideline107"
+        app:srcCompat="@drawable/ic_math" />
+
+    <ImageView
+        android:id="@+id/ud_diameter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline117"
+        app:layout_constraintEnd_toStartOf="@+id/guideline101"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline109"
+        app:srcCompat="@drawable/ic_diameter" />
+
+    <ImageView
+        android:id="@+id/ud_length"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline118"
+        app:layout_constraintEnd_toStartOf="@+id/guideline101"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline117"
+        app:srcCompat="@drawable/ic_length" />
+
+    <ImageView
+        android:id="@+id/ud_volume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline101"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline118"
+        app:srcCompat="@drawable/ic_volume2" />
+
+    <TextView
+        android:id="@+id/ud_companyOrPerson_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_companyOrPerson"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_companyOrPerson" />
+
+    <TextView
+        android:id="@+id/ud_email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_email"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_email" />
+
+    <TextView
+        android:id="@+id/ud_password_txt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_password"
+        app:layout_constraintEnd_toStartOf="@+id/ud_password_visibility"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_password" />
+
+    <TextView
+        android:id="@+id/ud_vformula_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_vformula"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_vformula" />
+
+    <TextView
+        android:id="@+id/ud_diameter_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_diameter"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_diameter" />
+
+    <TextView
+        android:id="@+id/ud_length_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_length"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_length" />
+
+    <TextView
+        android:id="@+id/ud_volume_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_volume"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toTopOf="@+id/ud_volume" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.56" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.84" />
+
+    <ImageView
+        android:id="@+id/ud_password_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_password_txt"
+        app:layout_constraintEnd_toStartOf="@+id/ud_password_change"
+        app:layout_constraintTop_toTopOf="@+id/ud_password_txt"
+        app:srcCompat="@drawable/ic_visibility_off" />
+
+    <ImageView
+        android:id="@+id/ud_password_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ud_password_visibility"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ud_password_visibility"
+        app:srcCompat="@drawable/ic_update" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cylindricalFormula"
+        android:title="Cylindrical Formula" />
+    <item
+        android:id="@+id/jasScale"
+        android:title="JAS Scale" />
+    <item
+        android:id="@+id/gost270875"
+        android:title="GOST 2708-75" />
+    <item
+        android:id="@+id/doyleLogRule"
+        android:title="Doyle Log Rule" />
+    <item
+        android:id="@+id/internationalRule14"
+        android:title='1/4" International Rule' />
+    <item
+        android:id="@+id/royLogRule"
+        android:title="Roy Log Rule" />
+    <item
+        android:id="@+id/scribnerDecimalC"
+        android:title="Scribner Decimal C" />
+    <item
+        android:id="@+id/ontarioLogRule"
+        android:title="Ontario Log Rule" />
+    <item
+        android:id="@+id/aNilsonFormula"
+        android:title="A. Nilson Formula" />
+    <item
+        android:id="@+id/imperialHoppus"
+        android:title="Imperial Hoppus" />
+    <item
+        android:id="@+id/metricalHoppus"
+        android:title="Metrical Hoppus" />
+</menu>
